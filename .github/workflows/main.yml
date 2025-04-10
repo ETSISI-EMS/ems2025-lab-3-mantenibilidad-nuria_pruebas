@@ -40,4 +40,5 @@ jobs:
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar 
           -Dsonar.projectKey=ETSISI-EMS_ems2025-lab-3-mantenibilidad-nuria_pruebas_655db076-4e74-4bc7-bae5-582fc6fe09ea  
           -Dsonar.projectName='ems2025-lab-3-mantenibilidad-nuria_pruebas'
-     
+          -Dsonar.qualitygate.wait=true
+
